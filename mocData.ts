@@ -10,7 +10,6 @@ export const mocData = {
     location: "Victoria, Canada",
     linkedIn: "https://linkedin.com/in/timbaker",
     github: "https://github.com/timbaker",
-    twitter: "https://twitter.com/timbaker",
     resumeUrl: "https://example.com/resume.pdf",
   },
   theme: {

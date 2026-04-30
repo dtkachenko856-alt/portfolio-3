@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { mocData } from "@/mocData";
-import { MapPin, Github, Linkedin, Twitter, FileDown } from "lucide-react";
+import { MapPin, Github, Linkedin, FileDown } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 export default function Hero() {
@@ -186,7 +186,6 @@ export default function Hero() {
           {[
             { icon: Github, href: profile.github, label: "GitHub" },
             { icon: Linkedin, href: profile.linkedIn, label: "LinkedIn" },
-            { icon: Twitter, href: profile.twitter, label: "Twitter" },
           ].map((social, index) => (
             <motion.a
               key={social.label}

@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { mocData } from "@/mocData";
 import { useInView } from "framer-motion";
 import { useRef, useState } from "react";
-import { Mail, MapPin, Phone, Send, Linkedin, Github, Twitter } from "lucide-react";
+import { Mail, MapPin, Phone, Send, Linkedin, Github } from "lucide-react";
 import emailjs from "@emailjs/browser";
 
 // EmailJS configuration - Replace with your actual values from https://dashboard.emailjs.com
@@ -64,7 +64,6 @@ export default function Contact() {
   const socialLinks = [
     { icon: Linkedin, href: profile.linkedIn, label: "LinkedIn" },
     { icon: Github, href: profile.github, label: "GitHub" },
-    { icon: Twitter, href: profile.twitter, label: "Twitter" },
   ];
 
   return (

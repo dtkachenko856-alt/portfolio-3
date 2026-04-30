@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { mocData } from "@/mocData";
-import { Mail, MapPin, Github, Linkedin, Twitter, Heart } from "lucide-react";
+import { Mail, MapPin, Github, Linkedin, Heart } from "lucide-react";
 
 const navLinks = [
   { name: "About", href: "#about" },
@@ -15,7 +15,6 @@ const navLinks = [
 const socialLinks = [
   { icon: Github, href: mocData.profile.github, label: "GitHub" },
   { icon: Linkedin, href: mocData.profile.linkedIn, label: "LinkedIn" },
-  { icon: Twitter, href: mocData.profile.twitter, label: "Twitter" },
 ];
 
 export default function Footer() {
